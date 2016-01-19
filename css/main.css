@@ -38,11 +38,10 @@ html {
 .tabs a {
   display: inline-block;
   background-color: #fff;
-  color: #fff;
   border-radius: 100px;
   border: solid black 5px;
-  height: .7em;
-  width: .7em;
+  height: 1.3em;
+  width: 1.3em;
 }
 
 .tabs {
@@ -50,5 +49,11 @@ html {
   padding: 0;
   list-style-type: none;
   position: absolute;
-  bottom: 720;
+  bottom: 710;
+  left: 210;
+}
+
+.tabs a:hover {
+  background-color: #000;
+  color: #fff;
 }
