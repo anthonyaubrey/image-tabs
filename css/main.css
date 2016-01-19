@@ -31,7 +31,7 @@ html {
   display: block;
 }
 
-.tabs li{
+.tabs li {
   display: inline-block;
 }
 
@@ -49,8 +49,8 @@ html {
   padding: 0;
   list-style-type: none;
   position: absolute;
-  bottom: 710;
-  left: 210;
+  bottom: 710px;
+  left: 210px;
 }
 
 .tabs a:hover {
