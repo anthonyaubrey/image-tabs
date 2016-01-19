@@ -24,10 +24,31 @@ html {
 
 .panel {
   position: absolute;
+  display: none;
+}
+
+.panel:target {
+  display: block;
+}
+
+.tabs li{
+  display: inline-block;
+}
+
+.tabs a {
+  display: inline-block;
+  background-color: #fff;
+  color: #fff;
+  border-radius: 100px;
+  border: solid black 5px;
+  height: .7em;
+  width: .7em;
 }
 
 .tabs {
   margin: 0;
   padding: 0;
   list-style-type: none;
+  position: absolute;
+  bottom: 720;
 }
