@@ -17,3 +17,11 @@ html {
 *, *::before, *::after {
   box-sizing: inherit;
 }
+
+.images {
+  position: relative;
+}
+
+.panel {
+  position: absolute;
+}
